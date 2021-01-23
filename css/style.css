@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 .cover{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 100vh;
     margin: 0vw;
-    background-color: lime;
+    background-color: white;
     line-height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.co-title{
+    font-size: 20px;
+}
+
+#title{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+}
+
+/* Parallax Testing */
+
+#img-div{
+    height: 600px;
+    /* border: 5px solid blue; */
+}
+
+.parallax{
+    background-image: url(/images/background4_test.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
