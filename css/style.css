@@ -1,0 +1,11 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    height: 100vh;
+    margin: 0vw;
+    background-color: lime;
+    line-height: 25px;
+}
