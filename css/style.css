@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+/* Tools */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
+
+.slider .stop{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+/* Home Screen */
 .cover{
     display: flex;
     flex-direction: column;
@@ -31,9 +49,23 @@
 
 .parallax{
     background-image: url(/images/background4_test.jpg);
-    height: 500px;
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Tribute Information */
+
+#tribute-info{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Quote Showcase */
+#quote{
+    text-align: center;
+    /* border: 5px solid red; */
+    width: 900px;
+    font-family: "Source Sans Pro", sans-serif;
 }
