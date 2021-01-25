@@ -10,11 +10,17 @@
 .slider{
     scroll-snap-type: y proximity;
     overflow-y: scroll;
+    height: 100vh;
 }
 
-.slider .stop{
+.stop{
     scroll-snap-align: start;
-    scroll-snap-stop: always;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
 }
 
 /* Home Screen */
@@ -23,11 +29,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid red; */
     height: 100vh;
-    margin: 0vw;
-    background-color: white;
-    line-height: 25px;
+    margin: 0 15% 0 15%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -41,12 +44,6 @@
 }
 
 /* Parallax Testing */
-
-#img-div{
-    height: 600px;
-    /* border: 5px solid blue; */
-}
-
 .parallax{
     background-image: url(/images/background4_test.jpg);
     height: 600px;
@@ -57,15 +54,30 @@
 }
 
 /* Tribute Information */
-
 #tribute-info{
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 25px;
 }
 
 /* Quote Showcase */
 #quote{
     text-align: center;
-    /* border: 5px solid red; */
-    width: 900px;
+    line-height: 25px;
     font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Image Showcase */
+#img-div{
+    height: 100vh;
+    /* border: 5px solid blue; */
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
